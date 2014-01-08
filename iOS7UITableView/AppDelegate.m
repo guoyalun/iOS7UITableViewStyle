@@ -8,12 +8,50 @@
 
 #import "AppDelegate.h"
 
+#import "FirstTabViewController.h"
+#import "SecondTabViewController.h"
+#import "ThirdTabViewController.h"
+#import "ForthTabViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    [self initTabBarController];
+    
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void)initTabBarController
+{
+    FirstTabViewController *firstController = [[FirstTabViewController alloc] init];
+    SecondTabViewController *secondController = [[SecondTabViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    ThirdTabViewController *thirdController = [[ThirdTabViewController alloc] init];
+    ForthTabViewController *forthController = [[ForthTabViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    
+    UINavigationController *FirstNavController = [[UINavigationController alloc] initWithRootViewController:firstController];
+    UINavigationController *SecondNavController = [[UINavigationController alloc] initWithRootViewController:secondController];
+    UINavigationController *ThirdNavController = [[UINavigationController alloc] initWithRootViewController:thirdController];
+    UINavigationController *ForthNavController = [[UINavigationController alloc] initWithRootViewController:forthController];
+    
+    UITabBarItem *FirstItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
+    UITabBarItem *SecondItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:2];
+    UITabBarItem *ThirdItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:3];
+    UITabBarItem *ForthItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMostViewed tag:4];
+    
+    // 设置了tabBarItem就不需要设置title了，会被覆盖
+    firstController.tabBarItem = FirstItem;
+    secondController.tabBarItem = SecondItem;
+    thirdController.tabBarItem = ThirdItem;
+    forthController.tabBarItem = ForthItem;
+    
+    self.tabBarController.viewControllers = @[FirstNavController, SecondNavController, ThirdNavController, ForthNavController];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
