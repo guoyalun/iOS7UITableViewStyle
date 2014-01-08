@@ -141,26 +141,8 @@
 			children = (
 				1687EB22187AE02B00DDE326 /* AppDelegate.h */,
 				1687EB23187AE02B00DDE326 /* AppDelegate.m */,
-				166786DC187C24A3009EC5E0 /* FirstTabViewController.h */,
-				166786DD187C24A3009EC5E0 /* FirstTabViewController.m */,
-				166786DF187C24BA009EC5E0 /* SecondTabViewController.h */,
-				166786E0187C24BA009EC5E0 /* SecondTabViewController.m */,
-				166786E2187C24C9009EC5E0 /* ThirdTabViewController.h */,
-				166786E3187C24C9009EC5E0 /* ThirdTabViewController.m */,
-				166786E5187C24D4009EC5E0 /* ForthTabViewController.h */,
-				166786E6187C24D4009EC5E0 /* ForthTabViewController.m */,
-				1687EB59187AF92600DDE326 /* CommonViewController.h */,
-				1687EB5A187AF92600DDE326 /* CommonViewController.m */,
-				1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */,
-				1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */,
-				1687EB4B187AE0EF00DDE326 /* CommonUI.h */,
-				1687EB4C187AE0EF00DDE326 /* CommonUI.m */,
-				1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */,
-				1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */,
-				1687EB51187AE2F600DDE326 /* CommonTableView.h */,
-				1687EB52187AE2F600DDE326 /* CommonTableView.m */,
-				1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */,
-				1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */,
+				16CF71B6187DACC00034FC32 /* Controller */,
+				16CF71B5187DACA00034FC32 /* Common */,
 				1687EB1A187AE02B00DDE326 /* Supporting Files */,
 				1687EB25187AE02B00DDE326 /* Main.storyboard */,
 				1687EB2E187AE02B00DDE326 /* Images.xcassets */,
@@ -195,6 +177,40 @@
 				1687EB3E187AE02B00DDE326 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CF71B5187DACA00034FC32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1687EB59187AF92600DDE326 /* CommonViewController.h */,
+				1687EB5A187AF92600DDE326 /* CommonViewController.m */,
+				1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */,
+				1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */,
+				1687EB4B187AE0EF00DDE326 /* CommonUI.h */,
+				1687EB4C187AE0EF00DDE326 /* CommonUI.m */,
+				1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */,
+				1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */,
+				1687EB51187AE2F600DDE326 /* CommonTableView.h */,
+				1687EB52187AE2F600DDE326 /* CommonTableView.m */,
+				1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */,
+				1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		16CF71B6187DACC00034FC32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				166786DC187C24A3009EC5E0 /* FirstTabViewController.h */,
+				166786DD187C24A3009EC5E0 /* FirstTabViewController.m */,
+				166786DF187C24BA009EC5E0 /* SecondTabViewController.h */,
+				166786E0187C24BA009EC5E0 /* SecondTabViewController.m */,
+				166786E2187C24C9009EC5E0 /* ThirdTabViewController.h */,
+				166786E3187C24C9009EC5E0 /* ThirdTabViewController.m */,
+				166786E5187C24D4009EC5E0 /* ForthTabViewController.h */,
+				166786E6187C24D4009EC5E0 /* ForthTabViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
