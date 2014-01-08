@@ -43,14 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		166786DC187C24A3009EC5E0 /* FirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabViewController.h; sourceTree = "<group>"; };
-		166786DD187C24A3009EC5E0 /* FirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabViewController.m; sourceTree = "<group>"; };
-		166786DF187C24BA009EC5E0 /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
-		166786E0187C24BA009EC5E0 /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
-		166786E2187C24C9009EC5E0 /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
-		166786E3187C24C9009EC5E0 /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
-		166786E5187C24D4009EC5E0 /* ForthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthTabViewController.h; sourceTree = "<group>"; };
-		166786E6187C24D4009EC5E0 /* ForthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthTabViewController.m; sourceTree = "<group>"; };
+		166786DC187C24A3009EC5E0 /* FirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTabViewController.h; path = ../FirstTabViewController.h; sourceTree = "<group>"; };
+		166786DD187C24A3009EC5E0 /* FirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTabViewController.m; path = ../FirstTabViewController.m; sourceTree = "<group>"; };
+		166786DF187C24BA009EC5E0 /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondTabViewController.h; path = ../SecondTabViewController.h; sourceTree = "<group>"; };
+		166786E0187C24BA009EC5E0 /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondTabViewController.m; path = ../SecondTabViewController.m; sourceTree = "<group>"; };
+		166786E2187C24C9009EC5E0 /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdTabViewController.h; path = ../ThirdTabViewController.h; sourceTree = "<group>"; };
+		166786E3187C24C9009EC5E0 /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdTabViewController.m; path = ../ThirdTabViewController.m; sourceTree = "<group>"; };
+		166786E5187C24D4009EC5E0 /* ForthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForthTabViewController.h; path = ../ForthTabViewController.h; sourceTree = "<group>"; };
+		166786E6187C24D4009EC5E0 /* ForthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForthTabViewController.m; path = ../ForthTabViewController.m; sourceTree = "<group>"; };
 		1687EB10187AE02B00DDE326 /* iOS7UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1687EB13187AE02B00DDE326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1687EB15187AE02B00DDE326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,18 +68,18 @@
 		1687EB3D187AE02B00DDE326 /* iOS7UITableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7UITableViewTests-Info.plist"; sourceTree = "<group>"; };
 		1687EB3F187AE02B00DDE326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1687EB41187AE02B00DDE326 /* iOS7UITableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7UITableViewTests.m; sourceTree = "<group>"; };
-		1687EB4B187AE0EF00DDE326 /* CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
-		1687EB4C187AE0EF00DDE326 /* CommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUI.m; sourceTree = "<group>"; };
-		1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
-		1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
-		1687EB51187AE2F600DDE326 /* CommonTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableView.h; sourceTree = "<group>"; };
-		1687EB52187AE2F600DDE326 /* CommonTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableView.m; sourceTree = "<group>"; };
-		1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCellBackgroundViewHelper.h; sourceTree = "<group>"; };
-		1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCellBackgroundViewHelper.m; sourceTree = "<group>"; };
-		1687EB59187AF92600DDE326 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
-		1687EB5A187AF92600DDE326 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
-		1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
-		1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		1687EB4B187AE0EF00DDE326 /* CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUI.h; path = iOS7UITableView/CommonUI.h; sourceTree = SOURCE_ROOT; };
+		1687EB4C187AE0EF00DDE326 /* CommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUI.m; path = iOS7UITableView/CommonUI.m; sourceTree = SOURCE_ROOT; };
+		1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonTableViewCell.h; path = iOS7UITableView/CommonTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonTableViewCell.m; path = iOS7UITableView/CommonTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1687EB51187AE2F600DDE326 /* CommonTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonTableView.h; path = iOS7UITableView/CommonTableView.h; sourceTree = SOURCE_ROOT; };
+		1687EB52187AE2F600DDE326 /* CommonTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonTableView.m; path = iOS7UITableView/CommonTableView.m; sourceTree = SOURCE_ROOT; };
+		1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonCellBackgroundViewHelper.h; path = ../CommonCellBackgroundViewHelper.h; sourceTree = "<group>"; };
+		1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonCellBackgroundViewHelper.m; path = ../CommonCellBackgroundViewHelper.m; sourceTree = "<group>"; };
+		1687EB59187AF92600DDE326 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonViewController.h; path = iOS7UITableView/CommonViewController.h; sourceTree = SOURCE_ROOT; };
+		1687EB5A187AF92600DDE326 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonViewController.m; path = iOS7UITableView/CommonViewController.m; sourceTree = SOURCE_ROOT; };
+		1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonTableViewController.h; path = iOS7UITableView/CommonTableViewController.h; sourceTree = SOURCE_ROOT; };
+		1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonTableViewController.m; path = iOS7UITableView/CommonTableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +139,11 @@
 		1687EB19187AE02B00DDE326 /* iOS7UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				16CF71BA187DAE4C0034FC32 /* Common */,
+				16CF71B9187DAE1C0034FC32 /* View */,
+				16CF71B8187DAE1C0034FC32 /* Controller */,
 				1687EB22187AE02B00DDE326 /* AppDelegate.h */,
 				1687EB23187AE02B00DDE326 /* AppDelegate.m */,
-				16CF71B6187DACC00034FC32 /* Controller */,
-				16CF71B5187DACA00034FC32 /* Common */,
 				1687EB1A187AE02B00DDE326 /* Supporting Files */,
 				1687EB25187AE02B00DDE326 /* Main.storyboard */,
 				1687EB2E187AE02B00DDE326 /* Images.xcassets */,
@@ -179,26 +180,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		16CF71B5187DACA00034FC32 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1687EB59187AF92600DDE326 /* CommonViewController.h */,
-				1687EB5A187AF92600DDE326 /* CommonViewController.m */,
-				1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */,
-				1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */,
-				1687EB4B187AE0EF00DDE326 /* CommonUI.h */,
-				1687EB4C187AE0EF00DDE326 /* CommonUI.m */,
-				1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */,
-				1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */,
-				1687EB51187AE2F600DDE326 /* CommonTableView.h */,
-				1687EB52187AE2F600DDE326 /* CommonTableView.m */,
-				1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */,
-				1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		16CF71B6187DACC00034FC32 /* Controller */ = {
+		16CF71B8187DAE1C0034FC32 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				166786DC187C24A3009EC5E0 /* FirstTabViewController.h */,
@@ -210,7 +192,33 @@
 				166786E5187C24D4009EC5E0 /* ForthTabViewController.h */,
 				166786E6187C24D4009EC5E0 /* ForthTabViewController.m */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16CF71B9187DAE1C0034FC32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1687EB56187AEE0900DDE326 /* CommonCellBackgroundViewHelper.h */,
+				1687EB57187AEE0900DDE326 /* CommonCellBackgroundViewHelper.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16CF71BA187DAE4C0034FC32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1687EB59187AF92600DDE326 /* CommonViewController.h */,
+				1687EB5A187AF92600DDE326 /* CommonViewController.m */,
+				1687EB5C187AFA5400DDE326 /* CommonTableViewController.h */,
+				1687EB5D187AFA5400DDE326 /* CommonTableViewController.m */,
+				1687EB4E187AE27600DDE326 /* CommonTableViewCell.h */,
+				1687EB4F187AE27600DDE326 /* CommonTableViewCell.m */,
+				1687EB51187AE2F600DDE326 /* CommonTableView.h */,
+				1687EB52187AE2F600DDE326 /* CommonTableView.m */,
+				1687EB4B187AE0EF00DDE326 /* CommonUI.h */,
+				1687EB4C187AE0EF00DDE326 /* CommonUI.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
